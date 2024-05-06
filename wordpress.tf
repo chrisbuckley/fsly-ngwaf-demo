@@ -12,10 +12,10 @@ resource "terraform_data" "wordpress_setup" {
     host        = google_compute_instance.demo_origin_instance.network_interface.0.access_config.0.nat_ip
   }
 
-  provisioner "file" {
-    source      = "modsec.sh"
-    destination = "modsec.sh"
-  }
+  # provisioner "file" {
+  #   source      = "modsec.sh"
+  #   destination = "modsec.sh"
+  # }
 
   provisioner "file" {
     source      = "wordpress.sh"

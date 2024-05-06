@@ -1,4 +1,4 @@
-site_name         = ""
+site_name         = "cbuckley-agentlab"
 fastly_api_key    = ""
 sigsci_corp       = ""
 sigsci_email      = ""
@@ -9,6 +9,6 @@ magento_pub_key   = ""
 magento_priv_key  = ""
 hyva              = false
 hyva_ssh_priv_key = ""
-wordpress         = false
+wordpress         = true
 puppeteer         = false
-randomhack        = false
+randomhack        = true

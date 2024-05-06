@@ -39,7 +39,7 @@ variable "ssh_pub_key" {
 
 variable "ssh_priv_key" {
   type    = string
-  default = "~/.ssh/id_rsa"
+  default = "~/.ssh/id_rsa_decrypt"
 }
 
 variable "magento" {
